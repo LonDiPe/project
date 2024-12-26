@@ -1,0 +1,23 @@
+.skins {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 20px;
+}
+
+@media (max-width: 1200px) {
+    .skins {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .skins {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+@media (max-width: 600px) {
+    .skins {
+        grid-template-columns: 1fr; 
+    }
+}

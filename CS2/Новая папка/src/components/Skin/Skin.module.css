@@ -1,0 +1,56 @@
+.skin {
+    background-color: #515151;
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skin:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.itemImg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.itemName, .itemPrice {
+    color: white;
+    margin: 10px 0;
+}
+
+.buyButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buyButton:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 1200px) {
+    .skins {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .skins {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .skins {
+        grid-template-columns: 1fr;
+    }
+}

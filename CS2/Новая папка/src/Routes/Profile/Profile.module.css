@@ -1,0 +1,50 @@
+.profile {
+    color: #ffffff; 
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.skins {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff; 
+}
+
+.skin {
+    background-color: #3b3b3b; 
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #000000; 
+}
+
+.skin img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.skin h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ffffff; 
+}
+
+.skin p {
+    font-size: 16px;
+    color: #ffffff; 
+}

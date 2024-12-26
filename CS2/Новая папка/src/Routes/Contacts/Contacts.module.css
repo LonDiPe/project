@@ -1,0 +1,38 @@
+.contacts {
+    color: #ffffff;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #2d2d2d;
+}
+
+.contactBox {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #3b3b3b;
+    border: 1px solid #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.contactTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.contactItem {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.contactLink {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.contactLink:hover {
+    text-decoration: underline;
+}

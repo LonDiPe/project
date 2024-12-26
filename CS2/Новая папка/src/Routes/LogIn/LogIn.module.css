@@ -1,0 +1,97 @@
+.logIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 100%;
+  max-width: 383px;
+  height: 50px;
+  background-color: #FFF9F9;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  width: 100%;
+  max-width: 383px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 100%;
+  max-width: 383px;
+  height: 50px;
+  background-color: #FFF9F9;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  width: 100%;
+  max-width: 383px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
